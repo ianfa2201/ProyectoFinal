@@ -1,3 +1,43 @@
+header{
+   border: solid 2px;
+   border-color: black;
+   }
+   #barra {
+       margin-right: 0px ;
+       padding-left: 30px;
+   }
+   #searching{
+      flex-direction: row;
+      margin: 0;
+   }
+   #sech {
+      width: 24em;
+      margin: 0 -5em !important;
+   }
+   #logo{
+   margin-left: 10px;
+       width: 40px;
+       height:40px;
+   }
+   nav{
+   height: 60px;
+   }
+   
+   .lol{
+    margin-right: 10px;
+   }
+   .titulo{
+     text-align: center;  
+     font-size: 25px;
+   }
+   .botonesRegistro{
+      float: right;
+   }
+   .botonesRegistro form{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   
 .sliders{
    border: 1.5px solid black;
 }
