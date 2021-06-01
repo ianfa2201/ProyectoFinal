@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+border: solid 2px;
+border-color: black;
+}
+#barra {
+    margin-right: 0px ;
+    padding-left: 30px;
+}
+#buscar {
+    
+   padding-right: 400px;
+   
+}
+#sech {
+    padding-right: 300px;
+}
+#logo{
+margin-left: 10px;
+    width: 40px;
+    height:40px;
+}
+nav{
+height: 60px;
+}
+
+.lol{
+ margin-right: 10px;
+}
+.titulo{
+  text-align: center;  
+  font-size: 25px;
+}
+
+.regis{
+    
+    width: 200px;
+    height: 120px;
+    margin-left: 45px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+}
+#izq{
+    border-top: solid 0px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: black ;
+}
+
+#pri{
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black ;
+}
+#sec{
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black ;
+}
+#ter{
+    padding-top: 8px;
+    
+    border-color: black ;
+}
+
+.titSec{
+    
+    font-size: 25px;
+  }
+  

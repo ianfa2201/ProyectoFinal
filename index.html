@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CP/home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilosHome.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CP/home</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto" id="barra">
+            <li class="nav-item">
+              <button type="button" class="btn btn-secondary exp" class="lol">Explorar</button>
+            </li>
+          </ul>
+          <form class="d-flex" id="buscar">
+            <input class="form-control me-sm-2" type="text" placeholder="Search" id="sech">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item"><button type="button" class="btn btn-secondary lol">Iniciar sesión</button></li>
+              <li class="nav-item"><button type="button" class="btn btn-secondary lol">Registrarse</button></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8 col-md-4 col-lg-2 bg-secondary " id="izq">
+        <div class="col-sm-12 bg-secondary" id="pri">
+          <h1 class="titulo">Videos gustados</h1>
+          <button type="button" class="btn btn-light regis" >REGISTRARSE</button>
+        </div>
+        <div class="col-sm-12 bg-secondary" id="sec">
+          <h1 class="titulo">Ultimos videos vistos</h1>
+          <button type="button" class="btn btn-light regis" >REGISTRARSE</button>
+        </div>
+        <div class="col-sm-12 bg-secondary" id="ter">
+          <h1 class="titulo">Recomendaciones</h1>
+          <button type="button" class="btn btn-light regis" >REGISTRARSE</button>
+        </div>
+      </div>
+      
+      <div class="col-sm-4 col-md-8 col-lg-10 bg-dark" id="der">
+        <h1 class="titSec">Videos del dia</h1>
+        <div class="col-sm-12 bg-secondary" id="uno">
+        
+        </div>
+        <h1 class="titSec">Videos de la semana</h1>
+        <div class="col-sm-12 bg-secondary" id="dos">
           
-              <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
-                      <span class="visually-hidden">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-sm-2" type="text" placeholder="Search">
-                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-    
+        </div>
+        <h1 class="titSec">Videos del mes</h1>
+        <div class="col-sm-12 bg-secondary" id="tres">
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </body>
+
 </html>
