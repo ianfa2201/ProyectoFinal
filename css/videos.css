@@ -4,7 +4,6 @@
 .slider {
     margin: 0 auto;
     width: 80%;
-    height: 40%;
     max-width: 100%;
     text-align: center;
  }
@@ -21,6 +20,7 @@
     background: #fff;
     position: relative;
     z-index: 1;
+    max-height: 20em;
  }
  .overflow {
     width: 100%;
@@ -135,9 +135,21 @@
     }
  }
 .jumbotron-fluid{
-   background-color: black;
+   background-color: rgb(15, 15, 15);
+   margin: 2.5em 5em;
+   width: 85%;
 }
-.iframe{
-   width: 400px;
-   height: 200px;
+
+iframe{
+   margin: 2em 7em;
+   width: 45em; 
+   height: 22em !important;
+}
+#footer{
+   background-color: rgb(17, 16, 16);
+}
+
+#footer button{
+   margin: 1em 30em;
+   height: auto;
 }
