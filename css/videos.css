@@ -59,7 +59,7 @@ iframe{
 
 #tituloVideo{
    background-color: rgb(20, 19, 19);
-   padding: 0;
+   padding: .2em .5em;
 }
 
 #tituloVideo h1{
@@ -84,11 +84,16 @@ iframe{
 
 /*botones like*/
 
-textarea{
+#likes, #dislikes{
    margin: -.5em 0;
    resize: none;
    color: whitesmoke;
    text-align: center;
+}
+
+#mensaje textarea{
+   color: black;
+   resize: none;
 }
 
 /* slide*/
