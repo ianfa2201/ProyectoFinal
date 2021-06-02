@@ -29,15 +29,17 @@ height: 60px;
 }
 
 .lol{
+	font-family: 'Asap', sans-serif;
  margin-right: 10px;
 }
 .titulo{
   text-align: center;  
   font-size: 25px;
+  font-family: 'Asap', sans-serif;
 }
 
 .regis{
-    
+    font-family: 'Asap', sans-serif;
     width: 200px;
     height: 120px;
     margin-left: 45px;
@@ -71,7 +73,8 @@ height: 60px;
 }
 
 .titSec{
-    
+	margin-top: 5px;
+    font-family: 'Asap', sans-serif;
     font-size: 25px;
   }
   
@@ -80,7 +83,6 @@ height: 60px;
    border-color: black;
    height: 26.55555%;
    margin-bottom: 30px;
-
   }
 
   #dos{
@@ -110,6 +112,9 @@ height: 60px;
 	 display: none;
 }
  .card {
+	 border: solid 2px;
+	 border-color: black;
+	 border-radius: inherit;
 	 position: absolute;
 	 width: 80%;
 	 height: 100%;
@@ -143,7 +148,7 @@ height: 60px;
  img {
 	 width: 100%;
 	 height: 100%;
-	 border-radius: 10px;
+	 
 	 object-fit: cover;
 }
  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
