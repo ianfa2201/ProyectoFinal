@@ -1,11 +1,11 @@
 $(function() {
     $("#drop-up").click(function() {
-        $(".descripcion").hide();
+        $(".descripcion").slideUp();
     });
 });
 
 $(function() {
     $("#drop-down").click(function() {
-        $(".descripcion").show();
+        $(".descripcion").slideDown();
     });
 });
