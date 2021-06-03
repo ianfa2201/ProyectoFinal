@@ -1,549 +1,975 @@
+/** @format */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-border: solid 2px;
-border-color: black;
-border-top: solid 0px ;
-border-left: solid 0px ;
-border-right: solid 0px ;
+header {
+  border: solid 2px;
+  border-color: black;
+  border-top: solid 0px;
+  border-left: solid 0px;
+  border-right: solid 0px;
 }
 #barra {
-    margin-right: 0px ;
-    padding-left: 30px;
+  margin-right: 0px;
+  padding-left: 30px;
+}
+#ex a {
+  text-decoration: none;
+  color: #fff;
+}
+#botonbuscar {
+  width: 100%;
+  margin: 0 !important;
 }
 
-#botonbuscar{
-	width: 100%;
-	margin: 0 !important;
-	
- }
+.sas {
+  margin-left: 10px;
+}
 
- .sas{
-	margin-left: 10px;
- }
-
-#searching{
-	flex-direction: row;
-	font-family: 'Asap', sans-serif;
-	
- }
+#searching {
+  flex-direction: row;
+  font-family: "Asap", sans-serif;
+}
 
 #sech {
-	width: 100%;
-	font-family: 'Asap', sans-serif;
- }
-#logo{
-margin-left: 10px;
-    width: 40px;
-    height:40px;
+  width: 100%;
+  font-family: "Asap", sans-serif;
 }
-nav{
-height: 60px;
+#logo {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+nav {
+  height: 60px;
 }
 
-.lol{
-font-family: 'Asap', sans-serif;
- margin-right: 20px;
+.lol {
+  font-family: "Asap", sans-serif;
+  margin-right: 20px;
 }
-.titulo{
-  text-align: center;  
+.titulo {
+  text-align: center;
   font-size: 25px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
-
-.botonesRegistro .nav-item{
-   float: right;
+.botonesRegistro .nav-item {
+  float: right;
 }
-.botonesRegistro form{
-   flex-direction: row;
-   justify-content: center;
+.botonesRegistro form {
+  flex-direction: row;
+  justify-content: center;
 }
-
 
 @media (max-width: 991px) {
+  nav {
+    height: auto;
+  }
 
-    nav{
-        height: auto;
-        }
-
-
-#barra {
-        margin-right: 0px ;
-        padding-left: 30px;
-    }
-    
-    #sech {
-       width: 100%;
-    }
-    #botonbuscar{
-        
-       width: 100%;
-       margin: 0 !important;
-    }
-    #logo{
+  #sech {
+    width: 100%;
+  }
+  #botonbuscar {
+    width: 100%;
+    margin: 0 !important;
+  }
+  #logo {
     margin-left: 10px;
-        width: 40px;
-        height:40px;
-    }
-    #barra {
-        margin-right: 0px ;
-        padding-left: 30px;
-    }
-    #searching{
-       flex-direction: row;
-    }
-    #sech {
-       width: 100%;
-    }
-    #botonbuscar{
-       width: 100%;
-       margin: 0 !important;
-    }
-    #logo{
+    width: 40px;
+    height: 40px;
+  }
+  #barra {
+    margin-right: 0px;
+    padding-left: 30px;
+  }
+  #searching {
+    flex-direction: row;
+  }
+  #sech {
+    width: 100%;
+  }
+  #botonbuscar {
+    width: 100%;
+    margin: 0 !important;
+  }
+  #logo {
     margin-left: 10px;
-        width: 40px;
-        height:40px;
-    }
-    
-    .lol{
-     margin-right: 10px;
-    }
-    .titulo{
-      text-align: center;  
-      font-size: 25px;
-    }
-    .botonesRegistro .nav-item{
-       float: right;
-    }
-    .botonesRegistro form{
-       flex-direction: row;
-       justify-content: center;
-    }
-    
-    .lol{
-    
-     margin-bottom: 20px;
-    }
+    width: 40px;
+    height: 40px;
+  }
 
-    .lol{
-        margin-top: 20px;
+  .lol {
+    margin-right: 10px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 25px;
+  }
+  .botonesRegistro .nav-item {
+    float: right;
+  }
+  .botonesRegistro form {
+    flex-direction: row;
+    justify-content: center;
+  }
 
-        margin-bottom: 20px;
-       }
-   #ex{
-       margin-left: -30px;
-       margin-top: 20px;
-   }
+  .lol {
+    margin-bottom: 20px;
+  }
 
+  .lol {
+    margin-top: 20px;
 
+    margin-bottom: 20px;
+  }
+  #ex {
+    margin-left: -30px;
+    margin-top: 20px;
+  }
 
-    .botonesRegistro .nav-item{
-       float: center;
-    }
-    .botonesRegistro form{
-       flex-direction: row;
-       justify-content: center;
-    }
-
-
-    
+  .botonesRegistro .nav-item {
+    float: center;
+  }
+  .botonesRegistro form {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
+.regis {
+  font-family: "Asap", sans-serif;
+  width: 200px;
+  height: 120px;
+  margin-left: 45px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border-color: black;
+  border: solid 2px;
+  background-color: rgb(185, 184, 184);
+}
+#izq {
+  border-top: solid 0px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  border-color: black;
+}
 
+#pri {
+  padding-top: 8px;
+  border-bottom: solid 2px;
+  border-color: black;
+}
+#sec {
+  padding-top: 8px;
+  border-bottom: solid 2px;
+  border-color: black;
+}
+#ter {
+  padding-top: 8px;
 
-.regis{
-    font-family: 'Asap', sans-serif;
+  border-color: black;
+}
+
+.titSec {
+  margin-top: 5px;
+  font-family: "Asap", sans-serif;
+  font-size: 25px;
+}
+
+#uno {
+  border: solid 2px;
+  border-color: black;
+  height: 26.55555%;
+  margin-bottom: 30px;
+}
+
+#dos {
+  border: solid 2px;
+  border-color: black;
+  height: 26.55555%;
+  margin-bottom: 30px;
+}
+
+#tres {
+  border: solid 2px;
+  border-color: black;
+  height: 26.55555%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+body.blue {
+  background-color: #428aa6;
+}
+input[type="radio"] {
+  display: none;
+}
+.card {
+  border: solid 2px;
+  border-color: black;
+  border-radius: inherit;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+#item-1:checked ~ .cards #song-1 img,
+#item-2:checked ~ .cards #song-2 img,
+#item-3:checked ~ .cards #song-3 img {
+  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+#item-:checked ~ .cards #song---,
+#item--:checked ~ .cards #song-,
+#item---:checked ~ .cards #song-- {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-:checked ~ .cards #song--,
+#item--:checked ~ .cards #song---,
+#item---:checked ~ .cards #song- {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-:checked ~ .cards #song-,
+#item--:checked ~ .cards #song--,
+#item---:checked ~ .cards #song--- {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+#item-:checked ~ .cards #song- img,
+#item--:checked ~ .cards #song-- img,
+#item---:checked ~ .cards #song--- img {
+  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+#item-u:checked ~ .cards #song-t,
+#item-d:checked ~ .cards #song-u,
+#item-t:checked ~ .cards #song-d {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-u:checked ~ .cards #song-d,
+#item-d:checked ~ .cards #song-t,
+#item-t:checked ~ .cards #song-u {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#item-u:checked ~ .cards #song-u,
+#item-d:checked ~ .cards #song-d,
+#item-t:checked ~ .cards #song-t {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+#item-u:checked ~ .cards #song-u img,
+#item-d:checked ~ .cards #song-d img,
+#item-t:checked ~ .cards #song-t img {
+  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+@media (max-width: 576px) {
+  #izq {
+    border: solid 2px;
+
+    border-color: black;
+    margin-top: 350px;
+  }
+  #der {
+    width: 100%;
+  }
+
+  #pri {
+    padding-top: 0px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #sec {
+    padding-top: 0px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #ter {
+    padding-top: 0px;
+
+    border-color: black;
+  }
+
+  .regis {
+    font-family: "Asap", sans-serif;
     width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+    margin-bottom: 30px;
+  }
+
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+    margin-bottom: 30px;
+  }
+
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #izq {
+    border: solid 2px;
+    border-color: black;
+    margin-top: 350px;
+  }
+
+  #der {
+    width: 100%;
+  }
+
+  #pri {
+    padding-top: 0px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #sec {
+    padding-top: 0px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #ter {
+    padding-top: 0px;
+
+    border-color: black;
+  }
+
+  .regis {
+    font-family: "Asap", sans-serif;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+    margin-bottom: 30px;
+  }
+
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+    margin-bottom: 30px;
+  }
+
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .titulo {
+    font-size: 20px;
+  }
+  .regis {
+    font-family: "Asap", sans-serif;
+    width: 170px;
     height: 120px;
-    margin-left: 45px;
+    margin: auto;
     margin-bottom: 60px;
     margin-top: 60px;
     border-color: black;
     border: solid 2px;
     background-color: rgb(185, 184, 184);
-}
-#izq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #izq {
     border-top: solid 0px;
     border-right: solid 2px;
     border-bottom: solid 2px;
-    border-color: black ;
-}
+    border-color: black;
+  }
 
-#pri{
+  #pri {
     padding-top: 8px;
     border-bottom: solid 2px;
-    border-color: black ;
-}
-#sec{
+    border-color: black;
+  }
+  #sec {
     padding-top: 8px;
     border-bottom: solid 2px;
-    border-color: black ;
-}
-#ter{
+    border-color: black;
+  }
+  #ter {
     padding-top: 8px;
-    
-    border-color: black ;
-}
 
-.titSec{
-	margin-top: 5px;
-    font-family: 'Asap', sans-serif;
+    border-color: black;
+  }
+
+  .titSec {
+    margin-top: 5px;
+    font-family: "Asap", sans-serif;
     font-size: 25px;
   }
-  
-  #uno{
-   border: solid 2px;
-   border-color: black;
-   height: 26.55555%;
-   margin-bottom: 30px;
+
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+
+    margin-bottom: 30px;
   }
 
-  #dos{
-	border: solid 2px;
-	border-color: black;
-	height: 26.55555%;
-	margin-bottom: 30px;
- 
-   }
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+    margin-bottom: 30px;
+  }
 
-   #tres{
-	border: solid 2px;
-	border-color: black;
-	height: 26.55555%;
-	
-   }
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+  }
 
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
 
- 
-
- body.blue {
-	 background-color: #428aa6;
-}
- input[type=radio] {
-	 display: none;
-}
- .card {
-	 border: solid 2px;
-	 border-color: black;
-	 border-radius: inherit;
-	 position: absolute;
-	 width: 80%;
-	 height: 100%;
-	 left: 0;
-	 right: 0;
-	 margin: auto;
-	 transition: transform 0.4s ease;
-	 cursor: pointer;
-}
- .container {
-	 width: 100%;
-	 max-width: 800px;
-	 max-height: 600px;
-	 height: 100%;
-	 transform-style: preserve-3d;
-	 display: flex;
-	 justify-content: center;
-	 flex-direction: column;
-	 align-items: center;
-}
-
-
-
- .cards {
-	 position: relative;
-	 width: 100%;
-	 height: 100%;
-	 margin-top: 20px;
-	 margin-bottom: 20px;
-}
- img {
-	 width: 100%;
-	 height: 100%;
-	 
-	 object-fit: cover;
-}
- #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
-	 transform: translatex(-40%) scale(0.8);
-	 opacity: 0.4;
-	 z-index: 0;
-}
- #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
-	 transform: translatex(40%) scale(0.8);
-	 opacity: 0.4;
-	 z-index: 0;
-}
- #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
-	 transform: translatex(0) scale(1);
-	 opacity: 1;
-	 z-index: 1;
-}
- #item-1:checked ~ .cards #song-1 img, #item-2:checked ~ .cards #song-2 img, #item-3:checked ~ .cards #song-3 img {
-	 box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-}
- 
-
-
-
-
-#item-:checked ~ .cards #song---, #item--:checked ~ .cards #song-, #item---:checked ~ .cards #song-- {
-	transform: translatex(-40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
-}
-#item-:checked ~ .cards #song--, #item--:checked ~ .cards #song---, #item---:checked ~ .cards #song- {
-	transform: translatex(40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
-}
-#item-:checked ~ .cards #song-, #item--:checked ~ .cards #song--, #item---:checked ~ .cards #song--- {
-	transform: translatex(0) scale(1);
-	opacity: 1;
-	z-index: 1;
-}
-#item-:checked ~ .cards #song- img, #item--:checked ~ .cards #song-- img, #item---:checked ~ .cards #song--- img {
-	box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    object-fit: cover;
+  }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+  .titulo {
+    font-size: 20px;
+  }
+  #der {
+    width: 83%;
+  }
+  .regis {
+    font-family: "Asap", sans-serif;
+    width: 140px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #izq {
+    border-top: solid 0px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
 
+  #pri {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #sec {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #ter {
+    padding-top: 8px;
 
+    border-color: black;
+  }
 
-#item-u:checked ~ .cards #song-t, #item-d:checked ~ .cards #song-u, #item-t:checked ~ .cards #song-d {
-	transform: translatex(-40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
-}
-#item-u:checked ~ .cards #song-d, #item-d:checked ~ .cards #song-t, #item-t:checked ~ .cards #song-u {
-	transform: translatex(40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
-}
-#item-u:checked ~ .cards #song-u, #item-d:checked ~ .cards #song-d, #item-t:checked ~ .cards #song-t {
-	transform: translatex(0) scale(1);
-	opacity: 1;
-	z-index: 1;
-}
-#item-u:checked ~ .cards #song-u img, #item-d:checked ~ .cards #song-d img, #item-t:checked ~ .cards #song-t img {
-	box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-}
+  .titSec {
+    margin-top: 5px;
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+  }
 
-@media (max-width: 576px) {
-	#izq{
-		
-		border: solid 2px;
-	
-		border-color: black ;
-		margin-top: 350px;
-		
-	}
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+    margin-bottom: 30px;
+  }
 
-	#pri{
-		padding-top: 0px;
-		border-bottom: solid 2px;
-		border-color: black ;
-		
-	}
-	#sec{
-		padding-top: 0px;
-		border-bottom: solid 2px;
-		border-color: black ;
-	}
-	#ter{
-		padding-top: 0px;
-		
-		border-color: black ;
-	}
-	
-	.regis{
-		font-family: 'Asap', sans-serif;
-		width: 200px;
-		height: 100px;
-		margin-left: 165px;
-		margin-bottom: 10px;
-		margin-top: 10px;
-		border-color: black;
-		border: solid 2px;
-		background-color: rgb(185, 184, 184);
-	}
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+    margin-bottom: 30px;
+  }
 
-	input[type=radio] {
-		display: none;
-   }
-	.card {
-		border: solid 2px;
-		border-color: black;
-		border-radius: inherit;
-		position: absolute;
-		width: 40%;
-		height: 100%;
-		left: 0;
-		right: 0;
-		margin: auto;
-		transition: transform 0.4s ease;
-		cursor: pointer;
-   }
-	.container {
-		width: 100%;
-		max-width: 800px;
-		max-height: 600px;
-		height: 100%;
-		transform-style: preserve-3d;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-   }
-   
-   
-   
-	.cards {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		margin-top: 10px;
-		margin-bottom: 10px;
-   }
-	img {
-		width: 100%;
-		height: 100%;
-		
-		object-fit: cover;
-   }
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+  }
 
-   #uno{
-	border: solid 2px;
-	border-color: black;
-	height: 50%;
-	margin-bottom: 30px;
-   }
- 
-   #dos{
-	 border: solid 2px;
-	 border-color: black;
-	 height: 50%;
-	 margin-bottom: 30px;
-  
-	}
- 
-	#tres{
-	 border: solid 2px;
-	 border-color: black;
-	 height: 50%;
-	 
-	}
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
 
-
+    object-fit: cover;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-	#izq{
-		
-		border: solid 2px;
-	
-		border-color: black ;
-		margin-top: 350px;
-		
-	}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #der {
+    width: 83%;
+  }
+  .regis {
+    font-family: "Asap", sans-serif;
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #izq {
+    border-top: solid 0px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
 
-	#pri{
-		padding-top: 0px;
-		border-bottom: solid 2px;
-		border-color: black ;
-		
-	}
-	#sec{
-		padding-top: 0px;
-		border-bottom: solid 2px;
-		border-color: black ;
-	}
-	#ter{
-		padding-top: 0px;
-		
-		border-color: black ;
-	}
-	
-	.regis{
-		font-family: 'Asap', sans-serif;
-		width: 200px;
-		height: 100px;
-		margin-left: 165px;
-		margin-bottom: 10px;
-		margin-top: 10px;
-		border-color: black;
-		border: solid 2px;
-		background-color: rgb(185, 184, 184);
-	}
+  #pri {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #sec {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #ter {
+    padding-top: 8px;
 
-	input[type=radio] {
-		display: none;
-   }
-	.card {
-		border: solid 2px;
-		border-color: black;
-		border-radius: inherit;
-		position: absolute;
-		width: 40%;
-		height: 100%;
-		left: 0;
-		right: 0;
-		margin: auto;
-		transition: transform 0.4s ease;
-		cursor: pointer;
-   }
-	.container {
-		width: 100%;
-		max-width: 800px;
-		max-height: 600px;
-		height: 100%;
-		transform-style: preserve-3d;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-   }
-   
-   
-   
-	.cards {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		margin-top: 10px;
-		margin-bottom: 10px;
-   }
-	img {
-		width: 100%;
-		height: 100%;
-		
-		object-fit: cover;
-   }
+    border-color: black;
+  }
 
-   #uno{
-	border: solid 2px;
-	border-color: black;
-	height: 50%;
-	margin-bottom: 30px;
-   }
- 
-   #dos{
-	 border: solid 2px;
-	 border-color: black;
-	 height: 50%;
-	 margin-bottom: 30px;
-  
-	}
- 
-	#tres{
-	 border: solid 2px;
-	 border-color: black;
-	 height: 50%;
-	 
-	}
+  .titSec {
+    margin-top: 5px;
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+  }
 
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+    margin-bottom: 30px;
+  }
+
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+    margin-bottom: 30px;
+  }
+
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 25.55555%;
+  }
+
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+}
+@media (min-width: 1400px) {
+  #der {
+    width: 83%;
+  }
+  .regis {
+    font-family: "Asap", sans-serif;
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-color: black;
+    border: solid 2px;
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #izq {
+    border-top: solid 0px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+
+  #pri {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #sec {
+    padding-top: 8px;
+    border-bottom: solid 2px;
+    border-color: black;
+  }
+  #ter {
+    padding-top: 8px;
+
+    border-color: black;
+  }
+
+  .titSec {
+    margin-top: 5px;
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+  }
+
+  #uno {
+    border: solid 2px;
+    border-color: black;
+    height: 26%;
+    margin-bottom: 30px;
+  }
+
+  #dos {
+    border: solid 2px;
+    border-color: black;
+    height: 26%;
+    margin-bottom: 30px;
+  }
+
+  #tres {
+    border: solid 2px;
+    border-color: black;
+    height: 26%;
+  }
+
+  .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
 }

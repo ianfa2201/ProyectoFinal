@@ -5,30 +5,137 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*----- barra de opciones----*/
 header {
   border: solid 2px;
   border-color: black;
+  border-top: solid 0px;
+  border-left: solid 0px;
+  border-right: solid 0px;
 }
 #barra {
   margin-right: 0px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
-#buscar {
-  padding-right: 200px;
+
+#botonbuscar {
+  width: 100%;
+  margin: 0 !important;
 }
+
+.sas {
+  margin-left: 10px;
+}
+
+#searching {
+  flex-direction: row;
+  font-family: "Asap", sans-serif;
+}
+
 #sech {
-  width: 370px;
-  padding-right: 50px;
+  width: 100%;
+  font-family: "Asap", sans-serif;
 }
 #logo {
   margin-left: 10px;
   width: 40px;
   height: 40px;
 }
-section #barraSlides {
-  width: 600px;
-  height: 1000px;
-  background-color: red;
+nav {
+  height: 60px;
+}
+
+.lol {
+  font-family: "Asap", sans-serif;
+  margin-right: 20px;
+}
+.titulo {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Asap", sans-serif;
+}
+
+.botonesRegistro .nav-item {
+  float: right;
+}
+.botonesRegistro form {
+  flex-direction: row;
+  justify-content: center;
+}
+/*-----media queries barra------*/
+@media (max-width: 991px) {
+  nav {
+    height: auto;
+  }
+
+  #sech {
+    width: 100%;
+  }
+  #botonbuscar {
+    width: 100%;
+    margin: 0 !important;
+  }
+  #logo {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  #barra {
+    margin-right: 0px;
+    padding-left: 30px;
+  }
+  #searching {
+    flex-direction: row;
+  }
+  #sech {
+    width: 100%;
+  }
+  #botonbuscar {
+    width: 100%;
+    margin: 0 !important;
+  }
+  #logo {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .lol {
+    margin-right: 10px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 25px;
+  }
+  .botonesRegistro .nav-item {
+    float: right;
+  }
+  .botonesRegistro form {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .lol {
+    margin-bottom: 20px;
+  }
+
+  .lol {
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+  }
+  #ex {
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+
+  .botonesRegistro .nav-item {
+    float: center;
+  }
+  .botonesRegistro form {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 /*------videoPrinciapal----*/
 .videoPrincipal {
@@ -173,39 +280,198 @@ section #barraSlides {
   width: 100%;
   vertical-align: top;
 }
-/* ---- ----- ----- Media Queries ----- ----- ----- */
+/* ---- ----- ----- Contenedor Principal y Flechas 2 ----- ----- ----- */
+.videosRecomendados2 {
+  margin-bottom: 70px;
+}
+
+.videosRecomendados2 .contenedorPrincipal3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.videosRecomendados2 .contenedorPrincipal3 .flecha-izquierda2,
+.videosRecomendados2 .contenedorPrincipal3 .flecha-derecha2 {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.videosRecomendados2 .contenedorPrincipal3 .flecha-izquierda2:hover,
+.videosRecomendados2 .contenedorPrincipal3 .flecha-derecha2:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.videosRecomendados2 .contenedorPrincipal3 .flecha-izquierda2 {
+  left: 0;
+}
+
+.videosRecomendados2 .contenedorPrincipal3 .flecha-derecha2 {
+  right: 0;
+}
+
+/* ---- ----- ----- Carousel 2----- ----- ----- */
+.videosRecomendados2 .contenedorSlide2 {
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.videosRecomendados2 .contenedorSlide2 .slide2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.videosRecomendados2 .contenedorSlide2 .slide2 .videos2 {
+  min-width: 20%;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.videosRecomendados2 .contenedorSlide2 .slide2 .videos2:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.videosRecomendados2 .contenedorSlide2 .slide2 .videos2 img {
+  width: 100%;
+  vertical-align: top;
+}
+/* ---- ----- ----- Contenedor Principal y Flechas 3 ----- ----- ----- */
+.videosRecomendados3 {
+  margin-bottom: 70px;
+}
+
+.videosRecomendados3 .contenedorPrincipal4 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.videosRecomendados3 .contenedorPrincipal4 .flecha-izquierda3,
+.videosRecomendados3 .contenedorPrincipal4 .flecha-derecha3 {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.videosRecomendados3 .contenedorPrincipal4 .flecha-izquierda3:hover,
+.videosRecomendados3 .contenedorPrincipal4 .flecha-derecha3:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.videosRecomendados3 .contenedorPrincipal4 .flecha-izquierda3 {
+  left: 0;
+}
+
+.videosRecomendados3 .contenedorPrincipal4 .flecha-derecha3 {
+  right: 0;
+}
+
+/* ---- ----- ----- Carousel 3----- ----- ----- */
+.videosRecomendados3 .contenedorSlide3 {
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.videosRecomendados3 .contenedorSlide3 .slide3 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.videosRecomendados3 .contenedorSlide3 .slide3 .videos3 {
+  min-width: 20%;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.videosRecomendados3 .contenedorSlide3 .slide3 .videos3:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.videosRecomendados3 .contenedorSlide3 .slide3 .videos3 img {
+  width: 100%;
+  vertical-align: top;
+}
+/* ---- ----- ----- Media Queries contenido----- ----- ----- */
+/*------primer slide-------*/
 @media screen and (max-width: 800px) {
-  header .logotipo {
-    margin-bottom: 10px;
-    font-size: 30px;
-  }
-
-  header .contenedor {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .pelicula-principal {
+  .videoPrincipal {
     font-size: 14px;
   }
 
-  .pelicula-principal .descripcion {
+  .videoPrincipal .texto1 {
     max-width: 100%;
   }
-
-  .peliculas-recomendadas .contenedor-carousel {
+  /*----- primer slide----*/
+  .videosRecomendados .contenedorSlide {
     overflow: visible;
   }
 
-  .peliculas-recomendadas .contenedor-carousel .carousel {
+  .videosRecomendados .contenedorSlide .slide {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .peliculas-recomendadas .indicadores,
-  .peliculas-recomendadas .flecha-izquierda,
-  .peliculas-recomendadas .flecha-derecha {
+  .videosRecomendados .indicadores,
+  .videosRecomendados .flecha-izquierda,
+  .videosRecomendados .flecha-derecha {
+    display: none;
+  }
+  /*-------segundo slide-----*/
+  .videosRecomendados2 .contenedorSlide2 {
+    overflow: visible;
+  }
+
+  .videosRecomendados2 .contenedorSlide2 .slide2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .videosRecomendados2 .indicadores2,
+  .videosRecomendados2 .flecha-izquierda2,
+  .videosRecomendados2 .flecha-derecha2 {
+    display: none;
+  }
+  /*-------tercer slide-----*/
+  .videosRecomendados3 .contenedorSlide3 {
+    overflow: visible;
+  }
+
+  .videosRecomendados3 .contenedorSlide3 .slide3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .videosRecomendados3 .indicadores3,
+  .videosRecomendados3 .flecha-izquierda3,
+  .videosRecomendados3 .flecha-derecha3 {
     display: none;
   }
 }
