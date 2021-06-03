@@ -7,6 +7,7 @@
    width: 40px;
    height:40px;
 }
+
 #ex a{
    text-decoration: none;
    color: whitesmoke;
@@ -19,6 +20,7 @@
 .navbar-toggler{
    float: right;
 }
+
 /*sliders*/
 
 #sliders h2{
@@ -173,7 +175,7 @@ iframe{
 /*Footer*/
 #footer{
    background-color: rgb(37, 37, 36);
-   padding: .5em 30em;
+   padding: .5em 40em;
 }
 
 #contact a {
@@ -320,13 +322,17 @@ iframe{
     /*Footer*/
 #footer{
    background-color: rgb(37, 37, 36);
-   padding: .5em 30em;
+   padding: .5em 12em;
 }
 
 #contact a {
    text-decoration: none;
    color: whitesmoke;
 }
+
+}
+
+@media(min-width: 578px){
 
 }
 
