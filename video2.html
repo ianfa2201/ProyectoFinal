@@ -31,7 +31,7 @@
                <ul class="navbar-nav me-auto" id="barra">
                   <li class="nav-item">
                      <div class="col-sm-12"> 
-                        <button type="button" class="btn btn-secondary exp lol" id="ex" >Explorar</button>
+                        <button type="button" class="btn btn-secondary exp lol" id="ex" > <a href="menuExplorar.html">Explorar</a></button>
                      </div>           
                   </li>
                </ul>
@@ -76,8 +76,8 @@
 
 <div class="container-fluid">
     <div class="row">
-         <div class="col-12 order-1 col-sm-2 bg-secondary" id="sliders">
-            <div class="col-sm-12">
+         <div class="col-12 order-1 col-sm-3 order-sm-1 col-md-2 order-md-0 bg-secondary" id="sliders">
+            <div class="col-sm-12 slide1">
                <h2 class="title-sliders">Videos gustados</h2>
                   <input type="radio" name="sliderr" id="item-1" checked>
                   <input type="radio" name="sliderr" id="item-2">
@@ -95,7 +95,7 @@
                   </div> 
             </div>
            
-            <div class="col-sm-12">
+            <div class="col-sm-12 slide2">
                <h2 class="title-sliders">Ultimos videos vistos</h2>
                   <input type="radio" name="slide" id="item-" checked>
                   <input type="radio" name="slide" id="item--">
@@ -113,7 +113,7 @@
             </div>
          </div>
          
-         <div class="col-sm-12">
+         <div class="col-sm-12 slide3">
             <h2 class="title-sliders">Recomendaciones</h2>
                <input type="radio" name="slider" id="item-u" checked>
                <input type="radio" name="slider" id="item-d">
@@ -131,7 +131,7 @@
             </div> 
          </div>    
       </div>
-        <div class="col-sm-10 bg-dark">
+        <div class="col-sm-10 bg-dark" id="main">
            <div class="col-sm-12" id="tituloVideo">
             <h1>The Weeknd & Ariana Grande – Save Your Tears </h1>   
            </div>
@@ -141,7 +141,7 @@
             <div class="row">
                <div class="col-sm-12" id="descripcion">
                   <div class="row">
-                     <div class="col-sm-9">
+                     <div class="col-12 col-sm-9">
                         <h2>Descripcion del video:</h2>
                         <button class="btn btn-dark" id="drop-down" value="drop-dowm"> 
                            <img src="imagenes/arrow-down-sign-to-navigate.png" alt="drop-down">
@@ -180,10 +180,11 @@
                </div>   
             </div>
             
-            <!-- <div id="footer" class="col-sm-12"> -->
-                <!-- <button class="btn btn-secondary center" id="contact"> <a href="contact_us.html">Contáctenos</a> </button> -->
-            <!-- </div> -->
+            
         </div>
+        <div id="footer" class=" col-12 order-2 col-sm-12 order-sm-2 order-md-2">
+                <button class="btn btn-secondary center" id="contact"> <a href="contact_us.html">Contáctenos</a></button>
+         </div>
     </div>
 </div>
 <script src="js/like_dislike.js"></script>
