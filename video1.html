@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="css/videos.css">
    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap" rel="stylesheet">
    <script src="js/jquery.min.js"></script>
+
    <script src="js/bootstrap.min.js"></script>
 
 
@@ -20,7 +21,7 @@
 
    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <div class="container-fluid">
+         <div class="container-fluid ">
             <div class="row">
                <div class="col-sm-12">
                   <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
@@ -36,11 +37,24 @@
                   <ul class="navbar-nav me-auto" id="barra">
                      <li class="nav-item">
                         <div class="col-sm-12">
-                           <button type="button" class="btn btn-secondary exp lol" id="ex">Explorar</button>
+                           <button type="button" class="btn btn-secondary exp lol" id="ex"><a
+                                 href="menuExplorar.html"></a>Explorar</button>
                         </div>
                      </li>
                   </ul>
                </div>
+               <div>
+                  <form>
+                     <select id="fondo" name="fondo" onchange="colorChanger(this)">
+                        <option value="">Default</option>
+                        <option value="red">Rojo</option>
+                        <option value="#ffff">blanco</option>
+
+                     </select>
+                  </form>
+               </div>
+
+
                <div class="col-sm-6" id="searching">
 
                   <div class="d-flex col-sm-12" id="buscar">
@@ -217,6 +231,7 @@
          </div>
       </div>
    </div>
+   <script src="js/colores.js"></script>
    <script src="js/like_dislike.js"></script>
 </body>
 

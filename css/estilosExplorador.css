@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 /*----- barra de opciones----*/
+#sliders {
+  max-width: 300px;
+  max-height: 685px;
+  background-attachment: fixed;
+}
 header {
   border: solid 2px;
   border-color: black;
@@ -16,6 +21,10 @@ header {
 #barra {
   margin-right: 0px;
   padding-left: 30px;
+}
+#ex a {
+  text-decoration: none;
+  color: #fff;
 }
 
 #botonbuscar {
@@ -48,11 +57,6 @@ nav {
 .lol {
   font-family: "Asap", sans-serif;
   margin-right: 20px;
-}
-.titulo {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Asap", sans-serif;
 }
 
 .botonesRegistro .nav-item {
@@ -103,7 +107,7 @@ nav {
   .lol {
     margin-right: 10px;
   }
-  .titulo {
+  .titulo h2 {
     text-align: center;
     font-size: 25px;
   }
@@ -257,7 +261,7 @@ img {
   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
 }
 
-/*------videoPrinciapal----*/
+/*------videoPrincipal----*/
 .videoPrincipal {
   font-size: 16px;
   min-height: 40.62em;
@@ -277,7 +281,7 @@ img {
   margin-bottom: 100px;
 }
 .videoPrincipal .titulo {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 50px;
 
   margin-bottom: 20px;
