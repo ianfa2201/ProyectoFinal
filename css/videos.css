@@ -198,15 +198,9 @@ iframe {
 }
 
 /*Footer*/
-<<<<<<< HEAD
-#footer {
-  background-color: rgb(37, 37, 36);
-  padding: 0.5em 30em;
-=======
 #footer{
    background-color: rgb(37, 37, 36);
    padding: .5em 40em;
->>>>>>> 091de548d54760cb27c0953fb8c7408822315c4f
 }
 
 #contact a {
@@ -214,18 +208,6 @@ iframe {
   color: whitesmoke;
 }
 
-<<<<<<< HEAD
-@media (max-width: 576px) {
-  #descripcion {
-    padding: 0;
-    margin: 1em;
-  }
-
-  #descripcion p {
-    font-size: 0.8em;
-    margin-bottom: 1em;
-  }
-=======
 @media(max-width: 768px){
    #main{
       width: 100%;
@@ -246,7 +228,6 @@ iframe {
       width: 100%;
       height: 20em;
    }
->>>>>>> 091de548d54760cb27c0953fb8c7408822315c4f
 
   .jumbotron-fluid {
     margin: 1em 0;
@@ -254,12 +235,6 @@ iframe {
     height: 45%;
   }
 
-<<<<<<< HEAD
-  iframe {
-    width: 100%;
-    height: 100% !important;
-  }
-=======
    #sliders{
       width: 100%;
       height: 100%;
@@ -374,7 +349,6 @@ iframe {
 #footer{
    background-color: rgb(37, 37, 36);
    padding: .5em 12em;
->>>>>>> 091de548d54760cb27c0953fb8c7408822315c4f
 }
 
 #contact a {
