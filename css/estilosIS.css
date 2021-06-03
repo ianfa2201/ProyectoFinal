@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+header{
+border: solid 2px;
+border-color: black;
+border-top: solid 0px ;
+border-left: solid 0px ;
+border-right: solid 0px ;
+}
+#barra {
+    margin-right: 0px ;
+    padding-left: 30px;
+}
+
+#botonbuscar{
+	width: 100%;
+	margin: 0 !important;
+	
+ }
+
+ .sas{
+	margin-left: 10px;
+ }
+
+#searching{
+	flex-direction: row;
+	font-family: 'Asap', sans-serif;
+	
+ }
+
+#sech {
+	width: 100%;
+	font-family: 'Asap', sans-serif;
+ }
+#logo{
+margin-left: 10px;
+    width: 40px;
+    height:40px;
+}
+nav{
+height: 60px;
+}
+
+.lol{
+font-family: 'Asap', sans-serif;
+ margin-right: 20px;
+}
+.title-sliders{
+  text-align: center;  
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+}
+
+.titSec{
+	margin-top: 5px;
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+  }
+
+
+.botonesRegistro .nav-item{
+   float: right;
+}
+.botonesRegistro form{
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+@media (max-width: 991px) {
+
+    nav{
+        height: auto;
+        }
+    
+    #sech {
+       width: 100%;
+    }
+    #botonbuscar{
+        
+       width: 100%;
+       margin: 0 !important;
+    }
+    #logo{
+    margin-left: 10px;
+        width: 40px;
+        height:40px;
+    }
+    #barra {
+        margin-right: 0px ;
+        padding-left: 30px;
+    }
+    #searching{
+       flex-direction: row;
+    }
+    #sech {
+       width: 100%;
+    }
+    #botonbuscar{
+       width: 100%;
+       margin: 0 !important;
+    }
+    #logo{
+    margin-left: 10px;
+        width: 40px;
+        height:40px;
+    }
+    
+    .lol{
+     margin-right: 10px;
+    }
+    .titulo{
+      text-align: center;  
+      font-size: 25px;
+    }
+    .botonesRegistro .nav-item{
+       float: right;
+    }
+    .botonesRegistro form{
+       flex-direction: row;
+       justify-content: center;
+    }
+    
+    .lol{
+    
+     margin-bottom: 20px;
+    }
+
+    .lol{
+        margin-top: 20px;
+
+        margin-bottom: 20px;
+       }
+   #ex{
+       margin-left: -30px;
+       margin-top: 20px;
+   }
+
+
+
+    .botonesRegistro .nav-item{
+       float: center;
+    }
+    .botonesRegistro form{
+       flex-direction: row;
+       justify-content: center;
+    }
+
+
+    
+}
+ 
+
+ #uno{
+   border: solid 2px;
+   border-color: black;
+   height: 26.55555%;
+   margin-bottom: 30px;
+  }
+
+  #dos{
+	border: solid 2px;
+	border-color: black;
+	height: 26.55555%;
+	margin-bottom: 30px;
+ 
+   }
+
+   #tres{
+	border: solid 2px;
+	border-color: black;
+	height: 26.55555%;
+	
+   }
+
+ 
+.container {
+   width: 100%;
+   max-width: 800px;
+   max-height: 600px;
+   height: 100%;
+   transform-style: preserve-3d;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+#sliders{
+border-right: solid 2px;
+border-bottom:solid 0px ;
+border-color: black;
+}
+
+#pri{
+   padding-top: 8px;
+   border-bottom: solid 2px;
+   border-color: black ;
+   width: 100%;
+   max-width: 800px;
+   max-height: 600px;
+   height: 300px;
+   transform-style: preserve-3d;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#sec{
+   padding-top: 8px;
+  
+   border-bottom: solid 2px;
+   border-color: black ;
+   width: 100%;
+   max-width: 800px;
+   max-height: 600px;
+   height: 300px;
+   transform-style: preserve-3d;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#ter{
+   padding-top: 8px;
+   width: 100%;
+   max-width: 800px;
+   max-height: 600px;
+   height: 300px;
+   transform-style: preserve-3d;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+ 
+ 
+ #form{
+ margin-left: 100px;
+ margin-right: 100px;
+ 
+ }
+ /* slide*/
+ input[type=radio] {
+    display: none;
+ }
+ .card {
+    border: solid 2px;
+    border-color: black;
+    border-radius: inherit;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+ }
+ .cards {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    margin: 2.5em 1.2em;
+    
+ }
+ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+ }
+ #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+ }
+ #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+ }
+ #item-1:checked ~ .cards #song-1 img, #item-2:checked ~ .cards #song-2 img, #item-3:checked ~ .cards #song-3 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+ }
+ 
+ 
+ 
+ 
+ 
+ #item-:checked ~ .cards #song---, #item--:checked ~ .cards #song-, #item---:checked ~ .cards #song-- {
+   transform: translatex(-40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+ }
+ #item-:checked ~ .cards #song--, #item--:checked ~ .cards #song---, #item---:checked ~ .cards #song- {
+   transform: translatex(40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+ }
+ #item-:checked ~ .cards #song-, #item--:checked ~ .cards #song--, #item---:checked ~ .cards #song--- {
+   transform: translatex(0) scale(1);
+   opacity: 1;
+   z-index: 1;
+ }
+ #item-:checked ~ .cards #song- img, #item--:checked ~ .cards #song-- img, #item---:checked ~ .cards #song--- img {
+   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+ }
+ 
+ 
+ 
+ 
+ #item-u:checked ~ .cards #song-t, #item-d:checked ~ .cards #song-u, #item-t:checked ~ .cards #song-d {
+   transform: translatex(-40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+ }
+ #item-u:checked ~ .cards #song-d, #item-d:checked ~ .cards #song-t, #item-t:checked ~ .cards #song-u {
+   transform: translatex(40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+ }
+ #item-u:checked ~ .cards #song-u, #item-d:checked ~ .cards #song-d, #item-t:checked ~ .cards #song-t {
+   transform: translatex(0) scale(1);
+   opacity: 1;
+   z-index: 1;
+ }
+ #item-u:checked ~ .cards #song-u img, #item-d:checked ~ .cards #song-d img, #item-t:checked ~ .cards #song-t img {
+   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+ }
+ 
+
+
+ input[type=radio] {
+   display: none;
+}
+.carta {
+   border: solid 2px;
+   border-color: black;
+   border-radius: inherit;
+   position: absolute;
+   width: 80%;
+   height: 100%;
+   left: 0;
+   right: 0;
+   margin: auto;
+   transition: transform 0.4s ease;
+   cursor: pointer;
+}
+.cartas {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   margin: 1em 1em;
+   
+}
+
+#ite:checked ~ .cartas #son-3, #ite-2:checked ~ .cartas #son, #ite-3:checked ~ .cartas #son-2 {
+   transform: translatex(-40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+}
+#ite:checked ~ .cartas #son-2, #ite-2:checked ~ .cartas #son-3, #ite-3:checked ~ .cartas #son {
+   transform: translatex(40%) scale(0.8);
+   opacity: 0.4;
+   z-index: 0;
+}
+#ite:checked ~ .cartas #son, #ite-2:checked ~ .cartas #son-2, #ite-3:checked ~ .cartas #son-3 {
+   transform: translatex(0) scale(1);
+   opacity: 1;
+   z-index: 1;
+}
+#ite:checked ~ .cartas #son img, #ite-2:checked ~ .cartas #son-2 img, #ite-3:checked ~ .cartas #son-3 img {
+   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+
+
+
+
+#ite-:checked ~ .cartas #son---, #ite--:checked ~ .cartas #son-, #ite---:checked ~ .cartas #son-- {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#ite-:checked ~ .cartas #son--, #ite--:checked ~ .cartas #son---, #ite---:checked ~ .cartas #son- {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#ite-:checked ~ .cartas #son-, #ite--:checked ~ .cartas #son--, #ite---:checked ~ .cartas #son--- {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+#ite-:checked ~ .cartas #son- img, #ite--:checked ~ .cartas #son-- img, #ite---:checked ~ .cartas #son--- img {
+  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+
+
+
+#ite-u:checked ~ .cartas #son-t, #ite-d:checked ~ .cartas #son-u, #ite-t:checked ~ .cartas #son-d {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#ite-u:checked ~ .cartas #son-d, #ite-d:checked ~ .cartas #son-t, #ite-t:checked ~ .cartas #son-u {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+#ite-u:checked ~ .cartas #son-u, #ite-d:checked ~ .cartas #son-d, #ite-t:checked ~ .cartas #son-t {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+#ite-u:checked ~ .cartas #son-u img, #ite-d:checked ~ .cartas #son-d img, #ite-t:checked ~ .cartas #son-t img {
+  box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+
+@media (max-width: 576px) {
+
+   #uno{
+      border: solid 2px;
+      border-color: black;
+      height: 50.55555%;
+      margin-bottom: 30px;
+     }
+   
+     #dos{
+      border: solid 2px;
+      border-color: black;
+      height: 50.55555%;
+      margin-bottom: 30px;
+    
+      }
+   
+      #tres{
+      border: solid 2px;
+      border-color: black;
+      height: 50.55555%;
+      
+      }
+
+      .carta {
+         border: solid 2px;
+         border-color: black;
+         border-radius: inherit;
+         position: absolute;
+         width: 60%;
+         height: 100%;
+         left: 0;
+         right: 0;
+         margin: auto;
+         transition: transform 0.4s ease;
+         cursor: pointer;
+      }
+      .cartas {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         margin: 1em 1em;
+         
+      }
+
+     
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+   #uno{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+     }
+   
+     #dos{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+    
+      }
+   
+      #tres{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      
+      }
+
+      .carta {
+         border: solid 2px;
+         border-color: black;
+         border-radius: inherit;
+         position: absolute;
+         width: 60%;
+         height: 100%;
+         left: 0;
+         right: 0;
+         margin: auto;
+         transition: transform 0.4s ease;
+         cursor: pointer;
+      }
+      .cartas {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         margin: 1em 1em;
+         
+      }
+
+  
+   
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+   #uno{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+     }
+   
+     #dos{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+    
+      }
+   
+      #tres{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      
+      }
+
+      .carta {
+         border: solid 2px;
+         border-color: black;
+         border-radius: inherit;
+         position: absolute;
+         width: 60%;
+         height: 100%;
+         left: 0;
+         right: 0;
+         margin: auto;
+         transition: transform 0.4s ease;
+         cursor: pointer;
+      }
+      .cartas {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         margin: 1em 1em;
+         
+      }
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+   #uno{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+     }
+   
+     #dos{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      margin-bottom: 30px;
+    
+      }
+   
+      #tres{
+      border: solid 2px;
+      border-color: black;
+      height: 26.55555%;
+      
+      }
+
+      .carta {
+         border: solid 2px;
+         border-color: black;
+         border-radius: inherit;
+         position: absolute;
+         width: 60%;
+         height: 100%;
+         left: 0;
+         right: 0;
+         margin: auto;
+         transition: transform 0.4s ease;
+         cursor: pointer;
+      }
+      .cartas {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         margin: 1em 1em;
+         
+      }
+
+}
