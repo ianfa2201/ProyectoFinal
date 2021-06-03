@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	
 }
 header{
 border: solid 2px;
@@ -69,12 +70,6 @@ font-family: 'Asap', sans-serif;
     nav{
         height: auto;
         }
-
-
-#barra {
-        margin-right: 0px ;
-        padding-left: 30px;
-    }
     
     #sech {
        width: 100%;
@@ -341,6 +336,9 @@ font-family: 'Asap', sans-serif;
 		margin-top: 350px;
 		
 	}
+	#der{
+		width: 100%;
+			}
 
 	#pri{
 		padding-top: 0px;
@@ -363,12 +361,16 @@ font-family: 'Asap', sans-serif;
 		font-family: 'Asap', sans-serif;
 		width: 200px;
 		height: 100px;
-		margin-left: 165px;
+		margin: auto;
 		margin-bottom: 10px;
 		margin-top: 10px;
 		border-color: black;
 		border: solid 2px;
 		background-color: rgb(185, 184, 184);
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	input[type=radio] {
@@ -436,8 +438,6 @@ font-family: 'Asap', sans-serif;
 	 height: 50%;
 	 
 	}
-
-
 
 }
 
@@ -445,11 +445,15 @@ font-family: 'Asap', sans-serif;
 	#izq{
 		
 		border: solid 2px;
-	
 		border-color: black ;
 		margin-top: 350px;
-		
+
+
 	}
+
+	#der{
+		width: 100%;
+			}
 
 	#pri{
 		padding-top: 0px;
@@ -472,12 +476,16 @@ font-family: 'Asap', sans-serif;
 		font-family: 'Asap', sans-serif;
 		width: 200px;
 		height: 100px;
-		margin-left: 165px;
+		margin: auto;
 		margin-bottom: 10px;
 		margin-top: 10px;
 		border-color: black;
 		border: solid 2px;
 		background-color: rgb(185, 184, 184);
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	input[type=radio] {
@@ -545,5 +553,466 @@ font-family: 'Asap', sans-serif;
 	 height: 50%;
 	 
 	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.titulo{
+		font-size: 20px;
+			}
+	.regis{
+		font-family: 'Asap', sans-serif;
+		width: 170px;
+		height: 120px;
+		margin: auto;
+		margin-bottom: 60px;
+		margin-top: 60px;
+		border-color: black;
+		border: solid 2px;
+		background-color: rgb(185, 184, 184);
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	#izq{
+		border-top: solid 0px;
+		border-right: solid 2px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	
+
+	#pri{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#sec{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#ter{
+		padding-top: 8px;
+		
+		border-color: black ;
+	}
+	
+	.titSec{
+		margin-top: 5px;
+		font-family: 'Asap', sans-serif;
+		font-size: 25px;
+	  }
+	  
+	  #uno{
+	   border: solid 2px;
+	   border-color: black;
+	   height: 25.55555%;
+	
+	   margin-bottom: 30px;
+	  }
+	
+	  #dos{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		margin-bottom: 30px;
+	 
+	   }
+	
+	   #tres{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		
+	   }
+
+	.card {
+	 border: solid 2px;
+	 border-color: black;
+	 border-radius: inherit;
+	 position: absolute;
+	 width: 55%;
+	 height: 100%;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 transition: transform 0.4s ease;
+	 cursor: pointer;
+}
+ .container {
+	 width: 100%;
+	 max-width: 800px;
+	 max-height: 600px;
+	 height: 100%;
+	 transform-style: preserve-3d;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+
+
+
+ .cards {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+}
+ img {
+	 width: 100%;
+	 height: 100%;
+	 
+	 object-fit: cover;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.titulo{
+		font-size: 20px;
+			}
+			#der{
+				width: 76.4%;
+			}
+	.regis{
+		font-family: 'Asap', sans-serif;
+		width: 140px;
+		height: 120px;
+		margin: auto;
+		margin-bottom: 60px;
+		margin-top: 60px;
+		border-color: black;
+		border: solid 2px;
+		background-color: rgb(185, 184, 184);
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	#izq{
+		border-top: solid 0px;
+		border-right: solid 2px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+
+	
+
+	#pri{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#sec{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#ter{
+		padding-top: 8px;
+		
+		border-color: black ;
+	}
+	
+	.titSec{
+		margin-top: 5px;
+		font-family: 'Asap', sans-serif;
+		font-size: 25px;
+	  }
+	  
+	  #uno{
+	   border: solid 2px;
+	   border-color: black;
+	   height: 25.55555%;
+	   margin-bottom: 30px;
+	  }
+	
+	  #dos{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		margin-bottom: 30px;
+	 
+	   }
+	
+	   #tres{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		
+	   }
+
+	.card {
+	 border: solid 2px;
+	 border-color: black;
+	 border-radius: inherit;
+	 position: absolute;
+	 width: 55%;
+	 height: 100%;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 transition: transform 0.4s ease;
+	 cursor: pointer;
+}
+ .container {
+	 width: 100%;
+	 max-width: 800px;
+	 max-height: 600px;
+	 height: 100%;
+	 transform-style: preserve-3d;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+
+
+
+ .cards {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+}
+ img {
+	 width: 100%;
+	 height: 100%;
+	 
+	 object-fit: cover;
+}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+			#der{
+				width: 76.4%;
+			}
+	.regis{
+		font-family: 'Asap', sans-serif;
+		width: 180px;
+		height: 120px;
+		margin: auto;
+		margin-bottom: 60px;
+		margin-top: 60px;
+		border-color: black;
+		border: solid 2px;
+		background-color: rgb(185, 184, 184);
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	#izq{
+		border-top: solid 0px;
+		border-right: solid 2px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+
+	
+
+	#pri{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#sec{
+		padding-top: 8px;
+		border-bottom: solid 2px;
+		border-color: black ;
+	}
+	#ter{
+		padding-top: 8px;
+		
+		border-color: black ;
+	}
+	
+	.titSec{
+		margin-top: 5px;
+		font-family: 'Asap', sans-serif;
+		font-size: 25px;
+	  }
+	  
+	  #uno{
+	   border: solid 2px;
+	   border-color: black;
+	   height: 25.55555%;
+	   margin-bottom: 30px;
+	  }
+	
+	  #dos{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		margin-bottom: 30px;
+	 
+	   }
+	
+	   #tres{
+		border: solid 2px;
+		border-color: black;
+		height: 25.55555%;
+		
+	   }
+
+	.card {
+	 border: solid 2px;
+	 border-color: black;
+	 border-radius: inherit;
+	 position: absolute;
+	 width: 70%;
+	 height: 100%;
+	 left: 0;
+	 right: 0;
+	 margin: auto;
+	 transition: transform 0.4s ease;
+	 cursor: pointer;
+}
+ .container {
+	 width: 100%;
+	 max-width: 800px;
+	 max-height: 600px;
+	 height: 100%;
+	 transform-style: preserve-3d;
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 align-items: center;
+}
+
+
+
+ .cards {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+}
+ img {
+	 width: 100%;
+	 height: 100%;
+	 
+	 object-fit: cover;
+}
+
+}
+@media (min-width: 1400px){
+	#der{
+		width: 76.4%;
+	}
+.regis{
+font-family: 'Asap', sans-serif;
+width: 180px;
+height: 120px;
+margin: auto;
+margin-bottom: 60px;
+margin-top: 60px;
+border-color: black;
+border: solid 2px;
+background-color: rgb(185, 184, 184);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#izq{
+border-top: solid 0px;
+border-right: solid 2px;
+border-bottom: solid 2px;
+border-color: black ;
+}
+
+
+
+#pri{
+padding-top: 8px;
+border-bottom: solid 2px;
+border-color: black ;
+}
+#sec{
+padding-top: 8px;
+border-bottom: solid 2px;
+border-color: black ;
+}
+#ter{
+padding-top: 8px;
+
+border-color: black ;
+}
+
+.titSec{
+margin-top: 5px;
+font-family: 'Asap', sans-serif;
+font-size: 25px;
+}
+
+#uno{
+border: solid 2px;
+border-color: black;
+height: 26%;
+margin-bottom: 30px;
+}
+
+#dos{
+border: solid 2px;
+border-color: black;
+height: 26%;
+margin-bottom: 30px;
+
+}
+
+#tres{
+border: solid 2px;
+border-color: black;
+height: 26%;
+
+}
+
+.card {
+border: solid 2px;
+border-color: black;
+border-radius: inherit;
+position: absolute;
+width: 80%;
+height: 100%;
+left: 0;
+right: 0;
+margin: auto;
+transition: transform 0.4s ease;
+cursor: pointer;
+}
+.container {
+width: 100%;
+max-width: 800px;
+max-height: 600px;
+height: 100%;
+transform-style: preserve-3d;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+.cards {
+position: relative;
+width: 100%;
+height: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+img {
+width: 100%;
+height: 100%;
+
+object-fit: cover;
+}
 
 }
