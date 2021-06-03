@@ -1,0 +1,11 @@
+Las plantillas utilizadas para el desarrollo de la pagina fueron
+https://bootswatch.com/darkly/
+
+
+
+
+
+Integrantes
+Andriw Esteban Ortiz Fajardo 506191039
+Ian Fabricio Blanco Llanos 506191019
+Holman Felipe Ruiz Rodriguz
