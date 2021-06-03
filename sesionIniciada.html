@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilosIS.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap" rel="stylesheet">
+  <script src="js/xd.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CP/home</title>
+</head>
+
+<body>
+  <header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+             <div class="row">
+                <div class="col-sm-12">
+                   <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" id="sas">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+                </div>
+             </div>
+            
+             <div class="collapse navbar-collapse container-fluid" id="navbarColor02">
+                <div class="col-sm-3">
+                   <ul class="navbar-nav me-auto" id="barra">
+                      <li class="nav-item">
+                         <div class="col-sm-12"> 
+                           <a href="menuExplorar.html"><button type="button" class="btn btn-secondary exp lol" id="ex" >Explorar</button></a>
+                         </div>           
+                      </li>
+                   </ul>
+                </div>
+                <div class="col-sm-6" id="searching">
+                   
+                   <div class="d-flex col-sm-12" id="buscar">
+                         <div class="col-sm-9">
+                            <input class="form-control col-sm-8" type="text" placeholder="Search" id="sech">
+                         </div>
+                         <div class="col-sm-3 sas">
+                            <button class="btn btn-secondary" type="submit " id="botonBuscar">Search</button>
+                         </div> 
+                      
+                   </div>
+                </div>
+              
+                <div class="col-sm-3" id="botonesRegistro">
+                   
+                   <ul class="navbar-nav me-auto col-sm-12"> 
+                      <li class="nav-item">
+                         <div class="col-sm-6">
+                           <a href="index.html"><button type="button" class="btn btn-secondary lol">
+                              Cerrar&nbsp;sesión
+                           </button></a> 
+                         </div>
+                      </li>
+                      
+                      <li class="nav-item">
+                         <div class="col-sm-6">
+                            <button type="button" class="btn btn-secondary lol">
+                               Subir&nbsp;video
+                            </button>
+                         </div>
+                      </li>  
+                   </ul>
+                </div>
+             </div>
+          </div>
+        </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 bg-secondary" id="sliders">
+         <div class="col-sm-12 " id="pri">
+            
+           <h2 class="title-sliders">Videos gustados</h2>
+              <input type="radio" name="sliderr" id="item-1" checked>
+              <input type="radio" name="sliderr" id="item-2">
+              <input type="radio" name="sliderr" id="item-3">
+            <div class="cards">
+              <label class="card" for="item-1" id="song-1">
+                <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+              </label>
+              <label class="card" for="item-2" id="song-2">
+                <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+              </label>
+              <label class="card" for="item-3" id="song-3">
+                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+              </label>
+            
+            </div>
+            </div>
+            <div class="col-sm-12 bg-secondary" id="sec">
+            <h2 class="title-sliders">Ultimos videos vistos</h2>
+            <input type="radio" name="slide" id="item-" checked>
+            <input type="radio" name="slide" id="item--">
+            <input type="radio" name="slide" id="item---">
+          <div class="cards">
+            <label class="card" for="item-" id="song-">
+              
+              <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+            </label>
+            <label class="card" for="item--" id="song--">
+              <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+            </label>
+            <label class="card" for="item---" id="song---">
+              <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+            </label>
+          </div>
+         </div>
+         <div class="col-sm-12 bg-secondary" id="ter">
+          <h2 class="title-sliders">Recomendaciones</h2>
+          <input type="radio" name="slider" id="item-u" checked>
+            <input type="radio" name="slider" id="item-d">
+            <input type="radio" name="slider" id="item-t">
+          <div class="cards">
+            <label class="card" for="item-u" id="song-u">
+              <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+            </label>
+            <label class="card" for="item-d" id="song-d">
+              <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+            </label>
+            <label class="card" for="item-t" id="song-t">
+              <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+            </label>
+          </div>
+        </div>
+      </div>
+        <div class="col-sm-10 " id="der">
+         <h1 class="titSec">Videos del dia</h1>
+
+         <div class="col-sm-12 bg-secondary " id="uno">
+           <div class="container">
+             <input type="radio" name="slides" id="ite" checked>
+             <input type="radio" name="slides" id="ite-2">
+             <input type="radio" name="slides" id="ite-3">
+           <div class="cartas">
+             <label class="carta" for="ite" id="son">
+               <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite-2" id="son-2">
+               <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite-3" id="son-3">
+               <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+             </label>
+           </div>
+           
+         </div>
+ 
+           
+ 
+         </div>
+         <h1 class="titSec">Videos de la semana</h1>
+         <div class="col-sm-12 bg-secondary " id="dos">
+           
+           <div class="container">
+             <input type="radio" name="slid" id="ite-" checked>
+             <input type="radio" name="slid" id="ite--">
+             <input type="radio" name="slid" id="ite---">
+           <div class="cartas">
+             <label class="carta" for="ite-" id="son-">
+               
+               <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite--" id="son--">
+               <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite---" id="son---">
+               <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+             </label>
+           </div>
+           
+         </div>
+ 
+ 
+ 
+         </div>
+         <h1 class="titSec">Videos del mes</h1>
+         <div class="col-sm-12 bg-secondary" id="tres">
+           
+           <div class="container">
+             <input type="radio" name="sli" id="ite-u" checked>
+             <input type="radio" name="sli" id="ite-d">
+             <input type="radio" name="sli" id="ite-t">
+           <div class="cartas">
+             <label class="carta" for="ite-u" id="son-u">
+               <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite-d" id="son-d">
+               <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+             </label>
+             <label class="carta" for="ite-t" id="son-t">
+               <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+             </label>
+           </div>
+           
+         </div>
+ 
+ 
+ 
+         </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+ 
+
+</body>
+
+</html>
