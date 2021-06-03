@@ -1,0 +1,211 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  border: solid 2px;
+  border-color: black;
+}
+#barra {
+  margin-right: 0px;
+  padding-left: 20px;
+}
+#buscar {
+  padding-right: 200px;
+}
+#sech {
+  width: 370px;
+  padding-right: 50px;
+}
+#logo {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+section #barraSlides {
+  width: 600px;
+  height: 1000px;
+  background-color: red;
+}
+/*------videoPrinciapal----*/
+.videoPrincipal {
+  font-size: 16px;
+  min-height: 40.62em;
+  color: #fff;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url(../imagenes/backdrop.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.videoPrincipal .contenedorPrincipal {
+  padding-left: 40px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.videoPrincipal .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.videoPrincipal .texto1 {
+  font-weight: normal;
+  font: 16px;
+  line-height: 28px;
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+.videoPrincipal .boton {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 18px;
+}
+.videoPrincipal .boton:hover {
+  background: #fff;
+  color: #000;
+}
+.videoPrincipal .boton i {
+  margin-right: 20px;
+}
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedorTituloControles {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contenedorTituloControles h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.contenedorTituloControles .indicadores button {
+  background: #fff;
+  height: 3px;
+  width: 10px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+}
+
+.contenedorTituloControles .indicadores button:hover,
+.contenedorTituloControles .indicadores button.activo {
+  background: red;
+}
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+.videosRecomendados {
+  margin-bottom: 70px;
+}
+
+.videosRecomendados .contenedorPrincipal2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.videosRecomendados .contenedorPrincipal2 .flecha-izquierda,
+.videosRecomendados .contenedorPrincipal2 .flecha-derecha {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+}
+
+.videosRecomendados .contenedorPrincipal2 .flecha-izquierda:hover,
+.videosRecomendados .contenedorPrincipal2 .flecha-derecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.videosRecomendados .contenedorPrincipal2 .flecha-izquierda {
+  left: 0;
+}
+
+.videosRecomendados .contenedorPrincipal2 .flecha-derecha {
+  right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.videosRecomendados .contenedorSlide {
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.videosRecomendados .contenedorSlide .slide {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.videosRecomendados .contenedorSlide .slide .videos {
+  min-width: 20%;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.videosRecomendados .contenedorSlide .slide .videos:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.videosRecomendados .contenedorSlide .slide .videos img {
+  width: 100%;
+  vertical-align: top;
+}
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+  header .logotipo {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  header .contenedor {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pelicula-principal {
+    font-size: 14px;
+  }
+
+  .pelicula-principal .descripcion {
+    max-width: 100%;
+  }
+
+  .peliculas-recomendadas .contenedor-carousel {
+    overflow: visible;
+  }
+
+  .peliculas-recomendadas .contenedor-carousel .carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .peliculas-recomendadas .indicadores,
+  .peliculas-recomendadas .flecha-izquierda,
+  .peliculas-recomendadas .flecha-derecha {
+    display: none;
+  }
+}
