@@ -17,12 +17,16 @@
               <div class="row">
                  <div class="col-sm-12">
                     <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
                  </div>
               </div>
              
               <div class="collapse navbar-collapse container-fluid" id="navbarColor02">
                  <div class="col-sm-3">
-                    <ul class="navbar-nav" id="barra">
+                    <ul class="navbar-nav me-auto" id="barra">
                        <li class="nav-item">
                           <div class="col-sm-12"> 
                              <button type="button" class="btn btn-secondary exp" class="lol">Explorar</button>
@@ -31,6 +35,7 @@
                     </ul>
                  </div>
                  <div class="col-sm-6" id="searching">
+                    
                     <div class="d-flex col-sm-12" id="buscar">
                           <div class="col-sm-9">
                              <input class="form-control col-sm-8" type="text" placeholder="Search" id="sech">
@@ -43,6 +48,7 @@
                  </div>
                
                  <div class="col-sm-3" id="botonesRegistro">
+                    
                     <ul class="navbar-nav me-auto col-sm-12"> 
                        <li class="nav-item">
                           <div class="col-sm-6">
@@ -66,11 +72,11 @@
          </nav>
      </header>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
+        <div class="row" id="form">
+            
 
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-12">
                     <h1>Contáctenos:</h1>
                     <p>Si tienes una petición, queja, recurso o sugerencia, llena este formulario y nos podremos en contacto contigo</p>
                 <form action="contact_us.html" method="get">
@@ -101,7 +107,7 @@
                  <div class="col-sm-12 justify-content-center">
                      <br>
                      <button type="submit" class="btn btn-secondary" onclick="validar()">Enviar</button>
-                 </div>
+                
         
             </form>
             </div>

@@ -17,40 +17,70 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-
-        <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
-          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav me-auto" id="barra">
-            <li class="nav-item">
-              <button type="button" class="btn btn-secondary exp lol" >Explorar</button>
-            </li>
-          </ul>
-          <form class="d-flex" id="buscar">
-            <input class="form-control me-sm-2" type="text" placeholder="Search" id="sech">
-            <button class="btn btn-secondary my-2 my-sm-0 lol" type="submit">Search</button>
-          </form>
-          <div>
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item"><button type="button" class="btn btn-secondary lol">Iniciar&nbsp;sesión</button></li>
-              <li class="nav-item"><button type="button" class="btn btn-secondary lol">Registrarse</button></li>
-            </ul>
-
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+             <div class="row">
+                <div class="col-sm-12">
+                   <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="logo" id="logo"></a>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" id="sas">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+                </div>
+             </div>
+            
+             <div class="collapse navbar-collapse container-fluid" id="navbarColor02">
+                <div class="col-sm-3">
+                   <ul class="navbar-nav me-auto" id="barra">
+                      <li class="nav-item">
+                         <div class="col-sm-12"> 
+                            <button type="button" class="btn btn-secondary exp lol" id="ex" >Explorar</button>
+                         </div>           
+                      </li>
+                   </ul>
+                </div>
+                <div class="col-sm-6" id="searching">
+                   
+                   <div class="d-flex col-sm-12" id="buscar">
+                         <div class="col-sm-9">
+                            <input class="form-control col-sm-8" type="text" placeholder="Search" id="sech">
+                         </div>
+                         <div class="col-sm-3 sas">
+                            <button class="btn btn-secondary" type="submit " id="botonBuscar">Search</button>
+                         </div> 
+                      
+                   </div>
+                </div>
+              
+                <div class="col-sm-3" id="botonesRegistro">
+                   
+                   <ul class="navbar-nav me-auto col-sm-12"> 
+                      <li class="nav-item">
+                         <div class="col-sm-6">
+                            <button type="button" class="btn btn-secondary lol">
+                               Iniciar&nbsp;sesión
+                            </button>
+                         </div>
+                      </li>
+                      
+                      <li class="nav-item">
+                         <div class="col-sm-6">
+                            <button type="button" class="btn btn-secondary lol">
+                               Registrarse
+                            </button>
+                         </div>
+                      </li>  
+                   </ul>
+                </div>
+             </div>
           </div>
-        </div>
-      </div>
-    </nav>
+        </nav>
   </header>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8 col-md-4 col-lg-2 bg-secondary " id="izq">
+      <div class="col-12 order-1  col-sm-12 order-sm-1 col-md-4 order-md-0 col-lg-2 order-lg-0 bg-secondary " id="izq">
         <div class="col-sm-12 bg-secondary" id="pri">
           <h1 class="titulo">Videos gustados</h1>
           <button type="button" class="btn btn-light regis" >REGISTRARSE</button>
@@ -65,7 +95,7 @@
         </div>
       </div>
       
-      <div class="col-sm-4 col-md-8 col-lg-10 bg-dark" id="der">
+      <div class="col-12 order-0 col-sm-12 order-sm-0 col-md-8 order-md-1 col-lg-10 order-lg-1 bg-dark" id="der">
         <h1 class="titSec">Videos del dia</h1>
 
         <div class="col-sm-12 bg-secondary " id="uno">
